@@ -1,0 +1,54 @@
+{
+  "dependencies": {
+    "cf-runtime": {
+      "version": "0.0.1",
+      "from": "cf-runtime@",
+      "dependencies": {
+        "mongodb": {
+          "version": "0.9.9-8",
+          "from": "mongodb@0.9.x",
+          "dependencies": {
+            "bson": {
+              "version": "0.0.4",
+              "from": "bson@0.0.4"
+            }
+          }
+        },
+        "redis": {
+          "version": "0.7.3",
+          "from": "redis@0.7.x"
+        },
+        "mysql": {
+          "version": "0.9.6",
+          "from": "mysql@0.9.x",
+          "dependencies": {
+            "hashish": {
+              "version": "0.0.4",
+              "from": "hashish@0.0.4",
+              "dependencies": {
+                "traverse": {
+                  "version": "0.6.3",
+                  "from": "traverse@>=0.2.4"
+                }
+              }
+            }
+          }
+        },
+        "amqp": {
+          "version": "0.1.4",
+          "from": "amqp@0.1.x"
+        },
+        "pg": {
+          "version": "0.6.18",
+          "from": "pg@0.6.x",
+          "dependencies": {
+            "generic-pool": {
+              "version": "1.0.9",
+              "from": "generic-pool@1.0.9"
+            }
+          }
+        }
+      }
+    }
+  }
+}
